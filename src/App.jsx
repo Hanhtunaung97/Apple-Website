@@ -7,9 +7,9 @@ const App = () => {
   return (
     <main className=" bg-black">
       <Navbar />
-      {/* <Hero />
+      <Hero />
       <HightLight />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 };
