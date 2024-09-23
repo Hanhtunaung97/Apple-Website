@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer, Hero, HightLight, Model, Navbar } from "./components";
+import * as Sentry from "@sentry/react";
 const App = () => {
   return (
     <main className=" bg-black">
@@ -12,4 +13,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Sentry.withProfiler(App);

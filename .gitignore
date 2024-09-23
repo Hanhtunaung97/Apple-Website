@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 # Build directories and files
+
+# Sentry Config File
+.env.sentry-build-plugin
