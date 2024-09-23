@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Hero, HightLight, Model, Navbar } from "./components";
+import { Features, Footer, Hero, HightLight, Model, Navbar } from "./components";
 import * as Sentry from "@sentry/react";
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Hero />
       <HightLight />
       <Model />
+      <Features/>
       <Footer />
     </main>
   );
